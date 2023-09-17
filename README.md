@@ -1,16 +1,15 @@
 <h1 align="center">Hi 👋, I'm Baljeet</h1>
-<h3 align="center">A passionate Full Stack Developer from India</h3>
+<h3 align="center">A passionate Software Engineer from India</h3>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=baljeetjangra" alt="baljeetjangra" /> </p>
 
-- 🌱 I’m currently learning **Django and MERN Stack**
+- 🌱 I’m currently working on MERN stack
 
 - 📫 How to reach me **baljeetjangraa@gmail.com**
 
 <p align="left">
 <h3 align="left">Connect with me:</h3>
 <a href="https://linkedin.com/in/baljeetjangra" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/linkedin.svg" alt="baljeetjangra" height="30" width="40" /></a>
-<a href="https://instagram.com/baljeet_codes" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/instagram.svg" alt="baljeet_codes" height="30" width="40" /></a>
 </p>
 
 <h3 align="left">Languages and Tools:</h3>
