@@ -7,16 +7,8 @@ import {
   CardTitle,
 } from "./ui/card";
 import { Badge } from "./ui/badge";
-import { Button } from "./ui/button";
 import { CodeMatrix } from "./CodeMatrix";
-import {
-  ExternalLink,
-  Github,
-  Database,
-  Globe,
-  Chrome,
-  Activity,
-} from "lucide-react";
+import { Database, Globe, Chrome, Activity } from "lucide-react";
 
 export const Projects: React.FC = () => {
   const projects = [
@@ -270,7 +262,7 @@ export const Projects: React.FC = () => {
               Ready to Build Something Amazing?
             </h3>
             <p className="text-xl opacity-90 mb-8 leading-relaxed">
-              Let's collaborate on your next data engineering or full-stack
+              Let&apos;s collaborate on your next data engineering or full-stack
               development project. From concept to deployment, I bring
               enterprise-scale expertise and creative solutions.
             </p>

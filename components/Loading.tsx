@@ -1,32 +1,32 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect } from "react";
 
 export const Loading: React.FC = () => {
   const [progress, setProgress] = useState(0);
-  const [loadingStage, setLoadingStage] = useState('Initializing');
+  const [loadingStage, setLoadingStage] = useState("Initializing");
 
   const stages = [
-    'Initializing',
-    'Loading Components',
-    'Connecting to Azure',
-    'Preparing Portfolio',
-    'Almost Ready'
+    "Initializing",
+    "Loading Components",
+    "Connecting to Azure",
+    "Preparing Portfolio",
+    "Almost Ready",
   ];
 
   useEffect(() => {
     const interval = setInterval(() => {
-      setProgress(prev => {
+      setProgress((prev) => {
         const newProgress = Math.min(prev + Math.random() * 15, 100);
-        
+
         // Update stage based on progress
         const stageIndex = Math.floor((newProgress / 100) * stages.length);
         setLoadingStage(stages[Math.min(stageIndex, stages.length - 1)]);
-        
+
         return newProgress;
       });
     }, 200);
 
     return () => clearInterval(interval);
-  }, []);
+  }, [stages]);
 
   return (
     <div className="fixed inset-0 bg-gradient-to-br from-slate-900 via-purple-900 to-slate-900 flex items-center justify-center z-50 overflow-hidden">
@@ -47,7 +47,7 @@ export const Loading: React.FC = () => {
               left: `${Math.random() * 100}%`,
               top: `${Math.random() * 100}%`,
               animationDelay: `${Math.random() * 3}s`,
-              animationDuration: `${3 + Math.random() * 2}s`
+              animationDuration: `${3 + Math.random() * 2}s`,
             }}
           >
             <div className="animate-ping absolute inset-0 rounded-full bg-gradient-to-r from-indigo-400 to-cyan-400 opacity-75"></div>
@@ -67,7 +67,7 @@ export const Loading: React.FC = () => {
               </h1>
               <div className="absolute -inset-4 bg-gradient-to-r from-indigo-500/20 via-purple-500/20 to-cyan-500/20 blur-2xl rounded-full animate-pulse"></div>
             </div>
-            
+
             {/* Subtitle */}
             <p className="text-indigo-200 text-lg tracking-wide">
               Azure Data Engineer
@@ -76,13 +76,25 @@ export const Loading: React.FC = () => {
 
           {/* Orbital Rings */}
           <div className="absolute -inset-16 flex items-center justify-center">
-            <div className="w-32 h-32 border border-indigo-400/30 rounded-full animate-spin" style={{ animationDuration: '8s' }}>
+            <div
+              className="w-32 h-32 border border-indigo-400/30 rounded-full animate-spin"
+              style={{ animationDuration: "8s" }}
+            >
               <div className="absolute top-0 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-2 h-2 bg-indigo-400 rounded-full"></div>
             </div>
-            <div className="absolute w-40 h-40 border border-cyan-400/20 rounded-full animate-spin" style={{ animationDuration: '12s', animationDirection: 'reverse' }}>
+            <div
+              className="absolute w-40 h-40 border border-cyan-400/20 rounded-full animate-spin"
+              style={{
+                animationDuration: "12s",
+                animationDirection: "reverse",
+              }}
+            >
               <div className="absolute top-1/4 right-0 transform translate-x-1/2 -translate-y-1/2 w-1.5 h-1.5 bg-cyan-400 rounded-full"></div>
             </div>
-            <div className="absolute w-48 h-48 border border-purple-400/10 rounded-full animate-spin" style={{ animationDuration: '16s' }}>
+            <div
+              className="absolute w-48 h-48 border border-purple-400/10 rounded-full animate-spin"
+              style={{ animationDuration: "16s" }}
+            >
               <div className="absolute bottom-0 left-1/2 transform -translate-x-1/2 translate-y-1/2 w-1 h-1 bg-purple-400 rounded-full"></div>
             </div>
           </div>
@@ -93,14 +105,14 @@ export const Loading: React.FC = () => {
           {/* Progress Bar */}
           <div className="relative">
             <div className="w-full h-2 bg-slate-800/50 rounded-full overflow-hidden backdrop-blur-sm">
-              <div 
+              <div
                 className="h-full bg-gradient-to-r from-indigo-500 via-purple-500 to-cyan-500 rounded-full transition-all duration-300 ease-out relative"
                 style={{ width: `${progress}%` }}
               >
                 <div className="absolute inset-0 bg-gradient-to-r from-white/20 to-transparent animate-shimmer"></div>
               </div>
             </div>
-            
+
             {/* Progress Percentage */}
             <div className="absolute -top-8 left-0 right-0 flex justify-between text-xs text-indigo-300">
               <span>{Math.round(progress)}%</span>

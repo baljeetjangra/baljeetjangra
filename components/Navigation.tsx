@@ -61,7 +61,7 @@ export const Navigation: React.FC = () => {
     const contactSection = document.getElementById("contact");
     if (contactSection) {
       const contactRect = contactSection.getBoundingClientRect();
-      const contactTop = scrollPosition + contactRect.top;
+      // const contactTop = scrollPosition + contactRect.top;
 
       // If we're within 200px of the contact section or at the bottom of the page
       if (

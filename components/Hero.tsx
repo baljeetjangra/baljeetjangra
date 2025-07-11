@@ -7,15 +7,11 @@ import { ThreeBackground } from "./ThreeBackground";
 import {
   Github,
   Linkedin,
-  Twitter,
   Moon,
   Sun,
-  Download,
   MapPin,
   Calendar,
   Sparkles,
-  ArrowRight,
-  Play,
   ChevronDown,
 } from "lucide-react";
 import { ImageWithFallback } from "./ImageWithFallback";
@@ -26,18 +22,18 @@ export const Hero: React.FC = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isLoaded, setIsLoaded] = useState(false);
 
-  const roles = [
-    "Azure Data Engineer",
-    "Cloud Solutions Architect",
-    "Data Pipeline Specialist",
-    "Full-Stack Developer",
-  ];
-
   useEffect(() => {
     setIsLoaded(true);
   }, []);
 
   useEffect(() => {
+    const roles = [
+      "Azure Data Engineer",
+      "Cloud Solutions Architect",
+      "Data Pipeline Specialist",
+      "Full-Stack Developer",
+    ];
+
     const currentRole = roles[currentIndex];
     if (typedText.length < currentRole.length) {
       const timeout = setTimeout(() => {
@@ -51,7 +47,7 @@ export const Hero: React.FC = () => {
       }, 2500);
       return () => clearTimeout(timeout);
     }
-  }, [typedText, currentIndex, roles]);
+  }, [typedText, currentIndex]);
 
   const scrollToNext = () => {
     const nextSection = document.getElementById("azure");

@@ -6,7 +6,6 @@ import { AzureShowcase } from "@/components/AzureShowcase";
 import { Skills } from "@/components/Skills";
 import { Projects } from "@/components/Projects";
 import { Experience } from "@/components/Experience";
-import { CertificationsAndBlog } from "@/components/CertificationsAndBlog";
 import { Footer } from "@/components/Footer";
 import { ClientLoadingWrapper } from "@/components/ClientLoadingWrapper";
 

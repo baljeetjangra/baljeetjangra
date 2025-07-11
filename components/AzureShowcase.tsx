@@ -256,8 +256,8 @@ export const AzureShowcase: React.FC = () => {
               Ready to Transform Your Data Strategy?
             </h3>
             <p className="text-xl opacity-90 mb-8 leading-relaxed">
-              Let's discuss how Azure data solutions can unlock insights and
-              drive innovation for your organization.
+              Let&apos;s discuss how Azure data solutions can unlock insights
+              and drive innovation for your organization.
             </p>
             <div className="flex flex-wrap justify-center gap-4">
               <Badge
