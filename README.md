@@ -73,20 +73,20 @@ I'm a passionate **Azure Data Engineer** and **Cloud Solutions Architect** with 
   <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git"/>
 </p>
 
-## 🏆 Certifications
+<!-- ## 🏆 Certifications
 
 | Certification                                                                                                                                                                       | Issuer       | Code        | Status    |
 | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | ----------- | --------- |
 | ![Microsoft Azure Data Engineer](https://img.shields.io/badge/Microsoft-Azure%20Data%20Engineer-0078D4?style=for-the-badge&logo=microsoft-azure&logoColor=white)                    | Microsoft    | **DP-203**  | ✅ Active |
 | ![Google Cloud Professional Data Engineer](https://img.shields.io/badge/Google%20Cloud-Professional%20Data%20Engineer-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white) | Google Cloud | **GCP-PDE** | ✅ Active |
 | ![Microsoft Azure Fundamentals](https://img.shields.io/badge/Microsoft-Azure%20Fundamentals-0078D4?style=for-the-badge&logo=microsoft-azure&logoColor=white)                        | Microsoft    | **AZ-900**  | ✅ Active |
-| ![Microsoft Data Fundamentals](https://img.shields.io/badge/Microsoft-Data%20Fundamentals-0078D4?style=for-the-badge&logo=microsoft-azure&logoColor=white)                          | Microsoft    | **DP-900**  | ✅ Active |
+| ![Microsoft Data Fundamentals](https://img.shields.io/badge/Microsoft-Data%20Fundamentals-0078D4?style=for-the-badge&logo=microsoft-azure&logoColor=white)                          | Microsoft    | **DP-900**  | ✅ Active | -->
 
 ## 📊 GitHub Stats
 
 <div align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=baljeetjangra&theme=react&hide_border=true&include_all_commits=true&count_private=true" alt="GitHub Stats" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=baljeetjangra&theme=react&hide_border=true" alt="GitHub Streak" />
+  <!-- <img src="https://github-readme-streak-stats.herokuapp.com/?user=baljeetjangra&theme=react&hide_border=true" alt="GitHub Streak" /> -->
 </div>
 
 <div align="center">
@@ -119,7 +119,7 @@ I'm a passionate **Azure Data Engineer** and **Cloud Solutions Architect** with 
 - 🔹 Processes 500K+ patient records
 - 🔹 Automated data anonymization
 
-## 💼 Professional Experience
+<!-- ## 💼 Professional Experience
 
 🏢 **Senior Azure Data Engineer** @ CloudTech Solutions _(2023 - Present)_
 
@@ -143,7 +143,7 @@ I'm a passionate **Azure Data Engineer** and **Cloud Solutions Architect** with 
 
 - [Building Real-time Data Pipelines with Azure Stream Analytics](https://blog.baljeetjangra.com/real-time-pipelines) - _12.5K views_
 - [Delta Lake vs Traditional Data Warehouses: A Complete Comparison](https://blog.baljeetjangra.com/delta-lake-comparison) - _8.2K views_
-- [Optimizing Azure Data Factory for Cost and Performance](https://blog.baljeetjangra.com/adf-optimization) - _6.8K views_
+- [Optimizing Azure Data Factory for Cost and Performance](https://blog.baljeetjangra.com/adf-optimization) - _6.8K views_ -->
 
 ## 🌐 Connect with Me
 
@@ -151,15 +151,15 @@ I'm a passionate **Azure Data Engineer** and **Cloud Solutions Architect** with 
   <a href="https://linkedin.com/in/baljeetjangra" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
   </a>
-  <a href="https://twitter.com/baljeetjangra" target="_blank">
+  <!-- <a href="https://twitter.com/baljeetjangra" target="_blank">
     <img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter"/>
-  </a>
+  </a> -->
   <a href="https://baljeetjangra.com" target="_blank">
     <img src="https://img.shields.io/badge/Portfolio-FF7139?style=for-the-badge&logo=Firefox-Browser&logoColor=white" alt="Portfolio"/>
   </a>
-  <a href="https://blog.baljeetjangra.com" target="_blank">
+  <!-- <a href="https://blog.baljeetjangra.com" target="_blank">
     <img src="https://img.shields.io/badge/Blog-21759B?style=for-the-badge&logo=WordPress&logoColor=white" alt="Blog"/>
-  </a>
+  </a> -->
   <a href="mailto:baljeet@example.com">
     <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
   </a>
