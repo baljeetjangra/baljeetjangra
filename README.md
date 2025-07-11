@@ -154,7 +154,7 @@ I'm a passionate **Azure Data Engineer** and **Cloud Solutions Architect** with 
   <!-- <a href="https://twitter.com/baljeetjangra" target="_blank">
     <img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter"/>
   </a> -->
-  <a href="https://baljeetjangra.com" target="_blank">
+  <a href="https://baljeetjangra.vercel.app/" target="_blank">
     <img src="https://img.shields.io/badge/Portfolio-FF7139?style=for-the-badge&logo=Firefox-Browser&logoColor=white" alt="Portfolio"/>
   </a>
   <!-- <a href="https://blog.baljeetjangra.com" target="_blank">
