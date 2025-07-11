@@ -182,7 +182,7 @@ export const Hero: React.FC = () => {
             </div>
 
             {/* Call to Action */}
-            <div className="flex flex-col sm:flex-row gap-4 pt-6">
+            {/* <div className="flex flex-col sm:flex-row gap-4 pt-6">
               <Button
                 size="lg"
                 className="px-8 py-4 bg-gradient-to-r from-indigo-600 to-cyan-600 hover:from-indigo-700 hover:to-cyan-700 text-white shadow-2xl hover:shadow-3xl transition-all duration-300 transform hover:scale-105 relative overflow-hidden group"
@@ -201,7 +201,7 @@ export const Hero: React.FC = () => {
                 View Portfolio
                 <ArrowRight className="h-5 w-5 ml-2" />
               </Button>
-            </div>
+            </div> */}
 
             {/* Social Links */}
             <div className="flex items-center space-x-6 pt-4">
@@ -212,22 +212,22 @@ export const Hero: React.FC = () => {
                 {[
                   {
                     icon: Linkedin,
-                    href: "#",
+                    href: "https://www.linkedin.com/in/baljeetjangra/",
                     label: "LinkedIn",
                     color: "hover:text-blue-600",
                   },
                   {
                     icon: Github,
-                    href: "#",
+                    href: "https://github.com/baljeetjangra",
                     label: "GitHub",
                     color: "hover:text-gray-800 dark:hover:text-gray-200",
                   },
-                  {
-                    icon: Twitter,
-                    href: "#",
-                    label: "Twitter",
-                    color: "hover:text-cyan-500",
-                  },
+                  // {
+                  //   icon: Twitter,
+                  //   href: "#",
+                  //   label: "Twitter",
+                  //   color: "hover:text-cyan-500",
+                  // },
                 ].map((social, index) => (
                   <Button
                     key={index}
@@ -278,7 +278,7 @@ export const Hero: React.FC = () => {
                     <div className="absolute inset-0 bg-gradient-to-r from-white via-gray-100 to-white dark:from-gray-800 dark:via-gray-700 dark:to-gray-800 rounded-full"></div>
 
                     {/* Image */}
-                    <div className="relative inset-1 rounded-full overflow-hidden group-hover:scale-105 transition-transform duration-700">
+                    <div className="relative inset-0 rounded-full overflow-hidden group-hover:scale-105 transition-transform duration-700">
                       <div className="absolute inset-0 bg-gradient-to-br from-indigo-600/10 via-transparent to-cyan-600/10 z-10 group-hover:from-indigo-600/20 group-hover:to-cyan-600/20 transition-all duration-500"></div>
                       <ImageWithFallback
                         src="/images/baljeet.jpg"

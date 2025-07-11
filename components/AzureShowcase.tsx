@@ -31,25 +31,25 @@ export const AzureShowcase: React.FC = () => {
   const pipelineStats = [
     {
       label: "Data Pipelines Built",
-      value: "150+",
+      value: "15+",
       icon: GitBranch,
       color: "text-blue-600",
     },
     {
       label: "TB of Data Processed",
-      value: "500+",
+      value: "50+",
       icon: Database,
       color: "text-indigo-600",
     },
     {
       label: "ETL Processes",
-      value: "200+",
+      value: "20+",
       icon: Workflow,
       color: "text-cyan-600",
     },
     {
       label: "Real-time Streams",
-      value: "50+",
+      value: "5+",
       icon: Activity,
       color: "text-purple-600",
     },
@@ -168,9 +168,9 @@ export const AzureShowcase: React.FC = () => {
                       <h4 className="text-lg text-gray-800 dark:text-gray-200">
                         {service.name}
                       </h4>
-                      <p className="text-sm text-gray-500">
+                      {/* <p className="text-sm text-gray-500">
                         {service.projects} projects
-                      </p>
+                      </p> */}
                     </div>
                   </div>
                   <Badge

@@ -6,12 +6,12 @@ import { Briefcase, Calendar, TrendingUp, Code, Database } from "lucide-react";
 export const Experience: React.FC = () => {
   const experiences = [
     {
-      title: "Senior Azure Data Engineer",
-      company: "CloudTech Solutions",
-      period: "2023 - Present",
-      duration: "1+ years",
+      title: "Senior Experience Engineer",
+      company: "Publicis Sapient",
+      period: "Apr 2022 - Present",
+      duration: "3+ years",
       description:
-        "Leading enterprise data initiatives, designing scalable ETL pipelines using Azure Data Factory and Synapse Analytics. Implemented real-time streaming solutions processing 500+ TB monthly data volume.",
+        "Leading enterprise data initiatives, designing scalable ETL pipelines using Azure Data Factory and Synapse Analytics. Implemented real-time streaming solutions processing 50+ TB monthly data volume.",
       technologies: [
         "Azure Data Factory",
         "Synapse Analytics",
@@ -23,28 +23,28 @@ export const Experience: React.FC = () => {
       type: "data-engineering",
       highlight: true,
     },
+    // {
+    //   title: "Data Engineer",
+    //   company: "DataFlow Innovations",
+    //   period: "2022 - 2023",
+    //   duration: "1 year",
+    //   description:
+    //     "Transitioned from full-stack development to data engineering. Built automated data pipelines, optimized database performance, and implemented modern data warehouse solutions.",
+    //   technologies: [
+    //     "Azure SQL",
+    //     "Python",
+    //     "Apache Spark",
+    //     "SSIS",
+    //     "Data Factory",
+    //     "Azure Functions",
+    //   ],
+    //   type: "data-engineering",
+    //   transition: true,
+    // },
     {
-      title: "Data Engineer",
-      company: "DataFlow Innovations",
-      period: "2022 - 2023",
-      duration: "1 year",
-      description:
-        "Transitioned from full-stack development to data engineering. Built automated data pipelines, optimized database performance, and implemented modern data warehouse solutions.",
-      technologies: [
-        "Azure SQL",
-        "Python",
-        "Apache Spark",
-        "SSIS",
-        "Data Factory",
-        "Azure Functions",
-      ],
-      type: "data-engineering",
-      transition: true,
-    },
-    {
-      title: "Senior Full-Stack Developer",
-      company: "WebSolutions Pro",
-      period: "2021 - 2022",
+      title: "Software Engineer",
+      company: "Uimatic",
+      period: "Jan 2021 - Mar 2022",
       duration: "1 year",
       description:
         "Led MERN stack development projects, built responsive web applications, and implemented modern DevOps practices. Started exploring cloud technologies and data processing.",
@@ -59,40 +59,40 @@ export const Experience: React.FC = () => {
       ],
       type: "full-stack",
     },
-    {
-      title: "Full-Stack Developer",
-      company: "TechStart Inc.",
-      period: "2020 - 2021",
-      duration: "1 year",
-      description:
-        "Developed scalable web applications using MERN stack, implemented RESTful APIs, and contributed to database design. Gained interest in data-driven applications.",
-      technologies: [
-        "JavaScript",
-        "React",
-        "Node.js",
-        "MongoDB",
-        "Express",
-        "Git",
-      ],
-      type: "full-stack",
-    },
-    {
-      title: "Junior Developer",
-      company: "CodeCraft Studio",
-      period: "2019 - 2020",
-      duration: "1 year",
-      description:
-        "Started career in web development, learned modern JavaScript frameworks, and contributed to various client projects. Foundation in software development principles.",
-      technologies: [
-        "HTML/CSS",
-        "JavaScript",
-        "React",
-        "MySQL",
-        "PHP",
-        "WordPress",
-      ],
-      type: "full-stack",
-    },
+    // {
+    //   title: "Full-Stack Developer",
+    //   company: "TechStart Inc.",
+    //   period: "2020 - 2021",
+    //   duration: "1 year",
+    //   description:
+    //     "Developed scalable web applications using MERN stack, implemented RESTful APIs, and contributed to database design. Gained interest in data-driven applications.",
+    //   technologies: [
+    //     "JavaScript",
+    //     "React",
+    //     "Node.js",
+    //     "MongoDB",
+    //     "Express",
+    //     "Git",
+    //   ],
+    //   type: "full-stack",
+    // },
+    // {
+    //   title: "Junior Developer",
+    //   company: "CodeCraft Studio",
+    //   period: "2019 - 2020",
+    //   duration: "1 year",
+    //   description:
+    //     "Started career in web development, learned modern JavaScript frameworks, and contributed to various client projects. Foundation in software development principles.",
+    //   technologies: [
+    //     "HTML/CSS",
+    //     "JavaScript",
+    //     "React",
+    //     "MySQL",
+    //     "PHP",
+    //     "WordPress",
+    //   ],
+    //   type: "full-stack",
+    // },
   ];
 
   const getTypeColor = (type: string) => {
@@ -144,7 +144,7 @@ export const Experience: React.FC = () => {
                   <Database className="h-8 w-8 text-indigo-600" />
                 </div>
                 <h3 className="text-2xl text-gray-800 dark:text-gray-200">
-                  2+ Years
+                  3+ Years
                 </h3>
                 <p className="text-gray-600 dark:text-gray-400">
                   Azure Data Engineering
@@ -155,7 +155,7 @@ export const Experience: React.FC = () => {
                   <Code className="h-8 w-8 text-cyan-600" />
                 </div>
                 <h3 className="text-2xl text-gray-800 dark:text-gray-200">
-                  3+ Years
+                  2+ Years
                 </h3>
                 <p className="text-gray-600 dark:text-gray-400">
                   Full-Stack Development
@@ -170,7 +170,7 @@ export const Experience: React.FC = () => {
           <div className="absolute left-8 top-0 bottom-0 w-1 bg-gradient-to-b from-indigo-500 via-purple-500 to-cyan-500 rounded-full"></div>
 
           <div className="space-y-12">
-            {experiences.map((exp, index) => {
+            {experiences.map((exp: any, index) => {
               const TypeIcon = getTypeIcon(exp.type);
               return (
                 <div key={index} className="relative flex items-start">
@@ -179,7 +179,7 @@ export const Experience: React.FC = () => {
                     className={`absolute left-6 w-6 h-6 rounded-full border-4 border-white dark:border-gray-900 z-10 ${
                       exp.highlight
                         ? "bg-indigo-500"
-                        : exp.transition
+                        : exp?.transition
                         ? "bg-purple-500"
                         : "bg-cyan-500"
                     } shadow-lg`}
@@ -212,7 +212,7 @@ export const Experience: React.FC = () => {
                                   Current
                                 </Badge>
                               )}
-                              {exp.transition && (
+                              {exp?.transition && (
                                 <Badge className="bg-purple-600 text-white">
                                   Career Pivot
                                 </Badge>
@@ -247,7 +247,7 @@ export const Experience: React.FC = () => {
                         </p>
 
                         <div className="flex flex-wrap gap-2">
-                          {exp.technologies.map((tech, techIndex) => (
+                          {exp.technologies.map((tech: any, techIndex: any) => (
                             <Badge
                               key={techIndex}
                               variant="outline"

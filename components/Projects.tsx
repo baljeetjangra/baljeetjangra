@@ -111,7 +111,11 @@ export const Projects: React.FC = () => {
       icon: Chrome,
       category: "Browser Extension",
       scale: "Consumer",
-      metrics: ["50K+ downloads", "4.8★ rating", "AI-powered"],
+      metrics: [
+        // "50K+ downloads",
+        "4.8★ rating",
+        "AI-powered",
+      ],
     },
   ];
 
@@ -219,7 +223,7 @@ export const Projects: React.FC = () => {
                     ))}
                   </div>
 
-                  <div className="flex gap-3">
+                  {/* <div className="flex gap-3">
                     <Button
                       variant="outline"
                       size="sm"
@@ -252,7 +256,7 @@ export const Projects: React.FC = () => {
                         </a>
                       </Button>
                     )}
-                  </div>
+                  </div> */}
                 </CardContent>
               </Card>
             );
@@ -270,7 +274,7 @@ export const Projects: React.FC = () => {
               development project. From concept to deployment, I bring
               enterprise-scale expertise and creative solutions.
             </p>
-            <div className="flex flex-wrap justify-center gap-4">
+            {/* <div className="flex flex-wrap justify-center gap-4">
               <Button
                 variant="secondary"
                 size="lg"
@@ -285,7 +289,7 @@ export const Projects: React.FC = () => {
               >
                 View All Projects
               </Button>
-            </div>
+            </div> */}
           </Card>
         </div>
       </div>

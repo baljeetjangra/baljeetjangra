@@ -25,7 +25,7 @@ export const Footer: React.FC = () => {
               asChild
             >
               <a
-                href="https://linkedin.com/in/baljeet"
+                href="https://www.linkedin.com/in/baljeetjangra/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -39,14 +39,14 @@ export const Footer: React.FC = () => {
               asChild
             >
               <a
-                href="https://github.com/baljeet"
+                href="https://github.com/baljeetjangra"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <Github className="h-5 w-5" />
               </a>
             </Button>
-            <Button
+            {/* <Button
               variant="ghost"
               size="icon"
               className="rounded-full hover:bg-cyan-600 hover:text-white transition-colors"
@@ -59,14 +59,14 @@ export const Footer: React.FC = () => {
               >
                 <Twitter className="h-5 w-5" />
               </a>
-            </Button>
+            </Button> */}
             <Button
               variant="ghost"
               size="icon"
               className="rounded-full hover:bg-indigo-600 hover:text-white transition-colors"
               asChild
             >
-              <a href="mailto:baljeet@example.com">
+              <a href="mailto:baljeetjangraa@gmail.com">
                 <Mail className="h-5 w-5" />
               </a>
             </Button>
@@ -74,8 +74,7 @@ export const Footer: React.FC = () => {
 
           <div className="border-t border-gray-800 pt-8">
             <p className="text-gray-400 text-sm">
-              © 2025 Baljeet. Built with Next / React, Tailwind CSS, and lots of
-              ☕
+              © 2025 Baljeet. Built with React, Tailwind CSS, and lots of ☕
             </p>
           </div>
         </div>
